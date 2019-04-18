@@ -18,7 +18,7 @@ namespace WiFi {
     public static class Program {
         private static GpioPin led1;
         private static GpioPin btn1;
-        private static SPWF04SxInterface wifi;
+        private static SPWF04SxInterface wifi; 
 
         public static void Main() {
             var cont = GpioController.GetDefault();
